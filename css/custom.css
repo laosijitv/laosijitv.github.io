@@ -1,0 +1,36 @@
+.white{
+    color: rgba(255,255,255,0.8);
+}
+.m-t-sm {
+    margin-top: 3px;
+}
+.m-l-sm {
+    margin-left: 3px;
+}
+.color-d{
+    background-color: #ff8c00;
+}
+.color-z{
+    background-color: #00bfff;
+}
+.color-l{
+    background-color: #39d498;
+}
+.color-h{
+    background-color: #fc7f8f;
+}
+.text-color-d{
+    color: #ff8c00;
+}
+.text-color-z{
+    color: #00bfff;
+}
+.text-color-l{
+    color:#39d498;
+}
+.text-color-h{
+    color: #fc7f8f;
+}
+.hot{
+    color: #fffa00;
+}

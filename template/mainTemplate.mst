@@ -1,0 +1,75 @@
+
+{{# hot }}
+    <h2 class="font-thin m-b">热门</h2>
+    <div class="row row-sm">
+        {{# hotLives }}
+            <div   class="col-xs-12 col-sm-4">
+                <div class="item">
+                    <a href="{{ domain }}" target="view_window">
+                        <div class="pos-rlt">
+                            <div class="item-overlay opacity r r-2x white">
+                                <div class="center text-center m-t-n">
+                                    <div><i class="fa fa-play-circle i-3x"></i></div>
+                                </div>
+                            </div>
+                            <div class="top">
+                                <span class="badge color-{{ platformCode }} m-l-sm m-t-sm">{{platform}}</span>
+                            </div>
+                            <div  ><img src="{{ screenShot }}" alt="" class="r r-2x img-full"></div>
+                        </div>
+                        <div class="padder-v">
+                            <div   class="text-ellipsis">{{ roomTitle }}</div>
+                            <div   class="text-ellipsis text-xs text-muted">
+                                <span class="pull-left anchor">{{ name }}</span>
+                                <span class="pull-right viewers">{{ viewers }}人</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {{/hotLives}}
+    </div>
+{{/ hot }}
+<h3 class="font-thin m-b">{{ channel }}</h3>
+<div class="row row-sm">
+    {{# data }}
+        <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="item">
+                <a href="{{ domain }}"  target="_blank">
+                    <div class="pos-rlt">
+                        <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                                <div><i class="icon icon-control-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="top">
+                            <span class="badge color-{{ platformCode }} m-l-sm m-t-sm"> {{ platform }}</span>
+                        </div>
+                        <div ><img data-original="{{ screenShot }}" alt="" class="lazy r r-2x img-full"></div>
+                    </div>
+                    <div class="padder-v">
+                        <div class="text-ellipsis">{{ roomTitle }}</div>
+                        <div class="text-ellipsis text-xs text-muted">
+                            <span class="pull-left anchor">{{ name }}</span>
+                            <span class="pull-right viewers">{{ viewers }}人</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    {{/ data }}
+    {{^ data }}
+        现在在该分类下没有主播进行直播 T_T
+    {{/ data }}
+</div>
+{{# pagination}}
+    <ul class="pagination pagination">
+        <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+    </ul>
+{{/ pagination }}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh" class="app">
+<head>
+  <meta charset="utf-8" />
+  <title>老司机TV-福利</title>
+  <meta name="keywords" content="游戏,直播,实时导航,斗鱼,熊猫TV,战旗,战旗,虎牙,lol,英雄联盟" />
+  <meta name="description" content="老司机TV，让你满足的实时直播导航" />
+  <link type="image/x-icon" rel="shortcut icon" href="http://7xlknn.com1.z0.glb.clouddn.com/logov2.ico" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="http://7xlknn.com1.z0.glb.clouddn.com/main.v3.css" type="text/css"/>
+  <link rel="stylesheet" href="http://apps.bdimg.com/libs/animate.css/3.1.0/animate.min.css" type="text/css" />
+  <link rel="stylesheet" href="http://7xlknn.com1.z0.glb.clouddn.com/simple-line-icons.css" type="text/css" />
+  <!--[if lt IE 9]>
+  <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+  <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.js"></script>
+  <![endif]-->
+</head>
+<body class="">
+<section class="vbox">
+  <header class="bg-white-only header header-md navbar navbar-fixed-top-xs">
+    <div class="navbar-header aside bg-info dk">
+      <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
+        <i class="icon-list"></i>
+      </a>
+      <a id="home_url" href="" class=" addHref navbar-brand text-lt">
+        <i class="icon-game-controller hide "></i>
+        <img src="http://7xlknn.com1.z0.glb.clouddn.com/mainlogo.png"  class="logo">
+        <span class="hidden-nav-xs m-l-sm hide">老司机</span>
+      </a>
+      <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
+        <i class="icon-settings hide"></i>
+      </a>
+    </div>
+    <ul class="nav navbar-nav hidden-xs">
+      <li>
+        <a href="#nav,.navbar-header" data-toggle="class:nav-xs,nav-xs" class="text-muted">
+          <i class="icon icon-arrow-left text"></i>
+          <i class="icon icon-arrow-right text-active"></i>
+        </a>
+      </li>
+    </ul>
+    <div class=" pull-right broadcast hidden-xs ">
+
+    </div>
+
+
+  </header>
+  <section>
+    <section class="hbox stretch">
+      <!-- .aside -->
+      <aside class="bg-black dk aside hidden-print" id="nav">
+        <section class="vbox">
+          <section class="w-f-md scrollable">
+            <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
+              <!-- nav -->
+              <nav class="nav-primary hidden-xs">
+                <ul class="nav" data-ride="collapse">
+                  <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                    平台分类
+                  </li>
+                  <li>
+                    <a id="hot_url" class="addHref" href="/" data-target="#content" data-el="#bjax-el" data-aim="hot.json" data-replace="true">
+                      <i class="icon-star icon hot"></i>
+                      <span class="font-bold">热门</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="douyu_url" class="addHref" href="/douyu" data-target="#content" data-el="#bjax-el" data-aim="douyu.json" data-replace="true">
+                      <i class="icon-social-youtube icon text-color-d"></i>
+                      <span class="font-bold">斗鱼</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="zhanqi_url" class="addHref" href="/zhanqi" data-target="#content" data-el="#bjax-el" data-aim="zhanqi.json" data-replace="true">
+                      <i class=" icon-social-youtube icon text-color-z"></i>
+                      <span class="font-bold">战旗</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="longzhu_url" class="addHref" href="/longzhu" data-target="#content" data-el="#bjax-el" data-aim="longzhu.json" data-replace="true">
+                      <i class="icon-social-youtube icon  text-color-l"></i>
+                      <span class="font-bold">龙珠</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="huya_url" class="addHref" href="/huya" data-target="#content" data-el="#bjax-el" data-aim="huya.json" data-replace="true">
+                      <i class="icon-social-youtube icon  text-color-h"></i>
+                      <span class="font-bold">虎牙</span>
+                    </a>
+                  </li>
+                  <li class="m-b hidden-nav-xs"></li>
+
+                </ul>
+                <ul class="nav" data-ride="collapse">
+                  <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                    看妹专区
+                  </li>
+                  <li>
+                    <a id="all_url" class="addHref" href="" data-target="#content" data-el="#bjax-el" data-aim="" data-replace="true">
+                      <i class="icon-symbol-female icon  text-color-a"></i>
+                      <span class="font-bold">所有</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a id="qiu_url" class="addHref" href="" data-target="#content" data-el="#bjax-el" data-aim="" data-replace="true">
+                      <i class="icon-social-youtube icon text-color-d"></i>
+                      <span class="font-bold">看球</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="lian_url" class="addHref" href="" data-target="#content" data-el="#bjax-el" data-aim="" data-replace="true">
+                      <i class=" icon-social-youtube icon text-color-z"></i>
+                      <span class="font-bold">颜值</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="meng_url" class="addHref" href="" data-target="#content" data-el="#bjax-el" data-aim="" data-replace="true">
+                      <i class="icon-social-youtube icon  text-color-h"></i>
+                      <span class="font-bold">萌妹</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="star_url" class="addHref" href="/" data-target="#content" data-el="#bjax-el" data-aim="" data-replace="true">
+                      <i class="icon-social-youtube icon hot"></i>
+                      <span class="font-bold">明星</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="waiguo_url" class="addHref" href="" data-target="#content" data-el="#bjax-el" data-aim="" data-replace="true">
+                      <i class="icon-social-youtube icon  text-color-l"></i>
+                      <span class="font-bold">外国</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="fuli_url" class="addHref" href="" data-target="#content" data-el="#bjax-el" data-aim="" data-replace="true">
+                      <i class="icon-social-youtube icon  text-color-x"></i>
+                      <span class="font-bold">福利</span>
+                    </a>
+                  </li>
+
+                  <li class="m-b hidden-nav-xs"></li>
+                </ul>
+
+
+              </nav>
+              <!-- / nav -->
+            </div>
+          </section>
+        </section>
+      </aside>
+      <!-- /.aside -->
+      <section id="content">
+        <section class="vbox" id="bjax-el">
+          <section class="scrollable padder-lg" id="mainContent">
+          </section>
+        </section>
+        <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open" data-target="#nav,html"></a>
+      </section>
+    </section>
+  </section>
+</section>
+<input value="x.json" id="jsonUrl">
+<!--Mustache模板引擎-->
+<script src="http://cdn.bootcss.com/mustache.js/2.1.3/mustache.min.js"></script>
+<!--JQuery-->
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://apps.bdimg.com/libs/jquery-lazyload/1.9.5/jquery.lazyload.js"></script>
+
+<!-- Bootstrap -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--路径配置-->
+<script src="http://7xlknn.com1.z0.glb.clouddn.com/sunqi.js?t=123"></script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256394459'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1256394459%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>
