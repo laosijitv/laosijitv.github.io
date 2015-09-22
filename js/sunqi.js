@@ -2,15 +2,9 @@
  * Created by sunqi on 15/9/8.
  */
 var HOST = window.location.host;
-var DOMAIN = '';
-if(HOST.match('localhost')){
-    DOMAIN = 'http://localhost:63342/laosiji';
-}else{
-    DOMAIN = 'http://' + HOST;
-}
-//var TEMPLATE_URL = 'http://laosiji.bitbucket.org/template/mainTemplate.mst' ;
+var DOMAIN = 'http://' + HOST;
+
 var TEMPLATE_URL = 'http://7xlknn.com1.z0.glb.clouddn.com/mainTemplate.mst';
-//var BROADCAST_URL = 'http://laosiji.bitbucket.org/template/broadcast.msg';
 var BROADCAST_URL = 'http://7xlknn.com1.z0.glb.clouddn.com/broadcast.msg';
 var url = {
     'home_url': '/',
