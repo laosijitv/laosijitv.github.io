@@ -1,1 +1,1 @@
-↖(^ω^)↗合作请私信，有改进建议欢迎评论置顶微博<a href="http://weibo.com/u/5708799389" target="_blank">@老司机体位</a>
+实时同步四大平台LOL直播数据↖(^ω^)↗有改进建议欢迎<a href="http://weibo.com/u/5708799389" target="_blank">@老司机体位</a>
