@@ -3949,6 +3949,9 @@ fieldset[disabled] .i-checks input + i:before {
 .text-color-h{
     color: #fc7f8f;
 }
+.text-color-xm{
+    color: #4f56fc;
+}
 .hot{
     color: #fffa00;
 }
