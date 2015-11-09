@@ -3937,6 +3937,9 @@ fieldset[disabled] .i-checks input + i:before {
 .color-h{
     background-color: #fc7f8f;
 }
+.color-x{
+    background-color: #2a486d;
+}
 .text-color-d{
     color: #ff8c00;
 }
