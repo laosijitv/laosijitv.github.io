@@ -3938,7 +3938,7 @@ fieldset[disabled] .i-checks input + i:before {
     background-color: #fc7f8f;
 }
 .color-x{
-    background-color: #2a486d;
+    background-color: #FC4FF2;
 }
 .text-color-d{
     color: #ff8c00;
@@ -3953,7 +3953,7 @@ fieldset[disabled] .i-checks input + i:before {
     color: #fc7f8f;
 }
 .text-color-xm{
-    color: #4f56fc;
+    color: #FC4FF2;
 }
 .hot{
     color: #fffa00;
@@ -3967,7 +3967,7 @@ fieldset[disabled] .i-checks input + i:before {
     margin-left: 5px;
 }
 .text-color-x{
-    color: #F969F2;
+    color: #FC4FF2;
 }
 .text-color-a{
     color:#FF3E7E
